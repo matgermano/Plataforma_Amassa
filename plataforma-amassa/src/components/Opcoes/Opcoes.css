@@ -1,0 +1,42 @@
+.MenuOpcoes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.MenuOpcoes i{
+  color: #9F1212;
+  margin-right: 10px;
+}
+.ItensOpcoes ul {
+  display: flex;
+  list-style: none;
+}
+.ItensOpcoes h1 {
+  margin: 25px;
+  padding: 8px;
+}
+.ItensOpcoes h1:hover,
+.ItensOpcoes h1:active {
+  color: #0e8a3e;
+  border: 1px solid #0e8a3e;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .MenuOpcoes {
+    flex-direction: column;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+  .ItensOpcoes ul {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-align: center;
+  }
+  .ItensOpcoes h1 {
+    padding: 10px;
+    margin: 0px;
+  }
+  
+}
