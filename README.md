@@ -30,9 +30,8 @@
 2. Abra em http://localhost:3000 em seu navegador
 3. Digite npm start no terminal do seu VSCode para rodar a API
 4. Depois disso, clone o projeto Plataforma Amassa! em: https://github.com/matgermano/Plataforma_Amassa
-5. Rode o comando npm i - f no terminal do VSCode
-6. Acesse a plataforma em http://localhost:3001 no navegador
-
+5. Rode o comando `npm i - f` no terminal do VSCode
+6. Rode o comando `npm start`
  
 
 ## 💻 Equipe de Desenvolvedores
