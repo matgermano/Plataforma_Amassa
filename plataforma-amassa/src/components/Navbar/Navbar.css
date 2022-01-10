@@ -12,6 +12,10 @@
     margin-left: 50px;
     cursor: pointer;
 }
+
+.ItensNavbar li:hover {
+    color: #9F1212;
+}
 .ItensNavbar i {
     color: #9F1212;
     font-size: 20px;
