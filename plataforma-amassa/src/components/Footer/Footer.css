@@ -1,0 +1,16 @@
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+}
+.LogoFooter{
+    width: 130px;
+}
+.Footer i {
+    color: #1F683B;
+}
