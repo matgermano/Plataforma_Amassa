@@ -1,17 +1,13 @@
 import React, { Component, useState } from "react";
-import { ItensMenu } from "./ItensMenu";
 import "./Navbar.css";
-import Modal from "../Modal/Modal";
 
-function Navbar() {
-  const [isModalVisible, setIsModalVisible] = useState(false);
+function Navbar({setIsOpen, setIsOpen2}) {
+
   const [clicked, setClicked] = useState(false);
 
   const handleClick = () => {
     setClicked(!clicked);
   };
-
-  console.log(isModalVisible);
 
   return (
     <>
@@ -22,7 +18,7 @@ function Navbar() {
         </div>
 
         <ul className={clicked ? "nav-menu active" : "nav-menu"}>
-          <li onClick={() => setIsModalVisible(true)}>
+          <li onClick={() => setIsOpen(true)}>
             <a className="nav-links">
               <h1>
                 <i class="fas fa-map-marker-alt"></i> Endereço de entrega
@@ -30,7 +26,7 @@ function Navbar() {
             </a>
           </li>
 
-          <li onClick={() => setIsModalVisible(true)}>
+          <li onClick={() => setIsOpen2(true)}>
             <a className="nav-links">
               <h1>
                 <i class="fas fa-shopping-bag"></i>Carrinho
@@ -38,8 +34,7 @@ function Navbar() {
             </a>
           </li>
         </ul>
-      </nav>
-      {isModalVisible ? <Modal /> : null}
+      </nav>      
     </>
   );
 }
