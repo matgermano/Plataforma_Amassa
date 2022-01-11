@@ -1,4 +1,5 @@
-import {React, useState} from "react";
+import {React, useState, useEffect} from "react";
+import axios from "axios";
 import Navbar from "./components/Navbar/Navbar";
 import Banner from "./components/Banner/Banner";
 import Opcoes from "./components/Opcoes/Opcoes";
@@ -9,6 +10,19 @@ import ModalCarrinho from "./components/Modal/ModalCarrinho";
 
 
 function App() {
+
+  // REQUISIÇÃO DE API AMASSA
+  // useEffect(()=>{
+  //   axios.get('https://chat-app-karlla.herokuapp.com/users')
+  //   .then((response)=>{
+  //     alert(response);
+  //   }) .catch((error)=>{
+  //     alert(error);
+  //   }) 
+
+  // });
+
+
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [isModalVisible2, setIsModalVisible2] = useState(false);
   return (
