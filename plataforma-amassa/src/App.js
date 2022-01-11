@@ -4,7 +4,9 @@ import Banner from "./components/Banner/Banner";
 import Opcoes from "./components/Opcoes/Opcoes";
 import Footer from "./components/Footer/Footer";
 import "./index.css";
-import Modal from "./components/Modal/Modal";
+import ModalEndereço from "./components/Modal/ModalEndereço";
+import ModalCarrinho from "./components/Modal/ModalCarrinho";
+
 
 function App() {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -15,8 +17,8 @@ function App() {
       <Banner />
       <Opcoes />
       <Footer />
-      {isModalVisible ? <Modal setIsModalVisible={setIsModalVisible} /> : null}
-      {isModalVisible2 ? <Modal setIsModalVisible={setIsModalVisible2} /> : null}
+      {isModalVisible ? <ModalEndereço setIsModalVisible={setIsModalVisible} /> : null}
+      {isModalVisible2 ? <ModalCarrinho setIsModalVisible2={setIsModalVisible2} /> : null}
     </>
   );
 }
