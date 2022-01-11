@@ -1,10 +1,10 @@
 import React from "react";
 import "./Modal.css";
 
-function Modal() {
+function Modal({setIsModalVisible}) {
   return (
     <>
-      <div id="dvmodal" className="modal">
+      <div onClick={()=> setIsModalVisible(false)} id="dvmodal" className="modal">
         <div className="modal-content">
           <div className="modal-header">
             <h1>TÍTULO</h1>
