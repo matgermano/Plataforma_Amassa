@@ -6,9 +6,9 @@
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
- ![GitHub Org's stars](https://img.shields.io/github/stars/matgermano/Amassa_API?style=social)
- [![GitHub forks](https://img.shields.io/github/forks/matgermano/Amassa_API.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/matgermano/Amassa_API/network/)
- [![GitHub branches](https://badgen.net/github/branches/matgermano/Amassa_API)](https://github.com/matgermano/Amassa_API)
+ ![GitHub Org's stars](https://img.shields.io/github/stars/matgermano/Plataforma_Amassa?style=social)
+ [![GitHub forks](https://img.shields.io/github/forks/matgermano/Plataforma_Amassa.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/matgermano/Plataforma_Amassa/network/)
+ [![GitHub branches](https://badgen.net/github/branches/matgermano/Plataforma_Amassa)](https://github.com/matgermano/Plataforma_Amassa)
 
 ---
 ## :computer: Tecnologias utilizadas
