@@ -4,7 +4,7 @@ import "./ModalEndereço.css";
 function ModalEndereço({ setIsModalVisible }) {
   return (
     <>
-      <div id="dvmodal" className="modal">
+      <div id="dvmodal" className="modalEnd">
         <div className="modal-content">
           <div className="modal-header">
             <img className="LogoNavbar" src="./logo.png" />

@@ -1,11 +1,11 @@
-.modal{
-  margin-left:35%;
-  width: 415px;
-  height: 582px;
+.modalCar{
+margin-left:35%;
+width: 415px;
+height: 582px;
 padding:20px;
-
 background: #FFFFFF;
 border-radius: 20px;
+z-index: 3;
 }
   
 .titulo_carrinho{
@@ -52,7 +52,7 @@ justify-content:space-between;
   justify-content:space-between;
 }
 .forma-pagamento{
-  position: absolute;
+position: absolute;
 width: 196px;
 height: 23px;
 font-size: 20px;

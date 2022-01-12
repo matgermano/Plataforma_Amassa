@@ -3,9 +3,8 @@ import "./ModalCarrinho.css";
 
 function ModalCarrinho({ setIsModalVisible2 }) {
   return (
-
-    <div onClick={() => setIsModalVisible2(false)} id="dvmodal" className="modal">
-
+    <div id="dvmodal" className="modalEnd">
+    <div id="dvmodal" className="modalCar">
       <div class="principal">
         <h1 class="titulo_carrinho"> Carrinho : </h1>
 
@@ -26,25 +25,32 @@ function ModalCarrinho({ setIsModalVisible2 }) {
           <p class="preco-total"> R$ 126,00</p>
         </div>
         <h3 class="forma-pagamento">Forma de Pagamento:</h3>
-        <br /><br /><br />
+        <br />
+        <br />
+        <br />
         <div class="opcoes-pagamento">
-
-          <button class="btn-pagamentos" type="radius">Pix</button>
-          <button class="btn-pagamentos" type="radius">Cartão</button>
+          <button class="btn-pagamentos" type="radius">
+            Pix
+          </button>
+          <button class="btn-pagamentos" type="radius">
+            Cartão
+          </button>
           <button type="radius">Dinheiro</button>
         </div>
-        <br/>
+        <br />
         <div class="class-enviar">
-        <button class="btn-enviar" type="submit"> Finalizar</button>
+          <button
+            class="btn-enviar"
+            type="submit"
+            onClick={() => setIsModalVisible2(false)}
+          >
+            {" "}
+            Finalizar
+          </button>
         </div>
       </div>
-
-
-
-
-
     </div>
-
+    </div>
   );
 }
 
