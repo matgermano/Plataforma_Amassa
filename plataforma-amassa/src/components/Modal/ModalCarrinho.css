@@ -1,38 +1,72 @@
 .modal {
-    background-color: rgb(0, 0, 0, 0.8);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 2;
-    /* display: none; */
-  }
-  
-  .modal-content {
-    margin: 0 auto;
-    margin-top: 5%;
-    max-width: 600px;
-    background-color: #eee;
-    padding: 0px;
-    box-shadow: 0 0 2px #fff;
-  }
-  
-  .modal-header,
-  .modal-body,
-  .modal-footer {
-    padding: 10px;
-  }
-  
-  .modal-header {
-    background-color: #ccc;
-  }
-  
-  .modal-footer {
-    background-color: #ccc;
-  }
-  
-  .modal-header h1 {
-    font-weight: bold;
-    text-align: center;
-  }
+  background-color: rgb(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}
+p {
+  text-align: center;
+}
+
+.modal-content {
+  margin: 0 auto;
+  margin-top: 5%;
+  max-width: 600px;
+  background-color: #eee;
+  padding: 0px;
+  box-shadow: 0 0 2px #fff;
+  border-radius: 20px;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.modal-header {
+  background-color: #ccc;
+}
+
+.modal-footer {
+  background-color: #ccc;
+}
+
+.modal-header h1 {
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.LogoNavbar {
+  width: 130px;
+  display: flex;
+  align-items: center;
+}
+
+.btn{
+position: absolute;
+width: 132.66px;
+height: 36.17px;
+color: #fff;
+background: #1F683B;
+border-radius: 7px;
+cursor: pointer;
+}
+
+.input{
+width: 132.66px;
+height: 36.17px;
+background: #E5E5E5;
+}
+
+.svg{
+  cursor: pointer;
+  display: flex;
+  flex-direction: row-reverse;
+}
