@@ -11,7 +11,7 @@
  [![GitHub branches](https://badgen.net/github/branches/matgermano/Amassa_API)](https://github.com/matgermano/Amassa_API)
 
 ---
-## :computer: Tecnologias utilizadas
+## :computer: Tecnologias utilizada
 * React.js
 * JavaScript
 * HTML
