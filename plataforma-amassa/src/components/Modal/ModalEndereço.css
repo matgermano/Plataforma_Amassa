@@ -56,11 +56,17 @@ height: 36.17px;
 color: #fff;
 background: #1F683B;
 border-radius: 7px;
+cursor: pointer;
 }
 
 .input{
 width: 132.66px;
 height: 36.17px;
-
 background: #E5E5E5;
+}
+
+.svg{
+  cursor: pointer;
+  display: flex;
+  flex-direction: row-reverse;
 }
