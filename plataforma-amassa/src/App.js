@@ -11,16 +11,17 @@ import ModalCarrinho from "./components/Modal/ModalCarrinho";
 
 function App() {
 
-  // REQUISIÇÃO DE API AMASSA
-  // useEffect(()=>{
-  //   axios.get('https://chat-app-karlla.herokuapp.com/users')
-  //   .then((response)=>{
-  //     alert(response);
-  //   }) .catch((error)=>{
-  //     alert(error);
-  //   }) 
+  useEffect(()=>{
+    axios.get('https://amassapi.herokuapp.com/pratos-principais')
+    .then((response)=>{
+      const chama= []
+      console.log(response);
+    }) .catch((error)=>{
+      console.log(error);
+    }) 
 
-  // });
+  });
+  
 
 
   const [isModalVisible, setIsModalVisible] = useState(false);
