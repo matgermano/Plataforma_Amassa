@@ -32,6 +32,28 @@
 4. Depois disso, clone o projeto Plataforma Amassa! em: https://github.com/matgermano/Plataforma_Amassa
 5. Rode o comando `npm i - f` no terminal do VSCode
 6. Rode o comando `npm start`
+
+---
+
+## 💻 Aprendemos e utilizamos:
+
+ Axios é um cliente HTTP baseado em Promises para fazer requisições. Pode ser utilizado tanto no navegador quanto no Node.js ou qualquer serviço de API.
+ 
+ Características do Axios:
+ 
+1. Faz requisições HTTP com o Node.js;
+2. Suporta a Promises;
+3. Todas as respostas são transformadas e retornadas em JSON;
+4. Tem suporte a falsificação de solicitações entre sites, conhecido como XRSF.
+
+## useEffect:
+
+## Styled-Components:
+
+## React-Router-Dom:
+
+
+
  
 
 ## 💻 Equipe de Desenvolvedores
