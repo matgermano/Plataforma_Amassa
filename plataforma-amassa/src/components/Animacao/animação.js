@@ -1,18 +1,19 @@
-// import React from "react";
-// import "./animacao.css"
-// import "./amassa.png"
+import React from "react";
+import "./Animacao.css"
 
-// function Animacao (){
-//     return(
-//         <body className="flex">
-//         <div className="gradient"></div>
-//             <div className="back"></div>
-//             <img className="img" src="./amassa.png" alt=""/>
-//             <div className="shade"></div>
-//             <div className="logo-flex">
-//         </div>
-//     </body>
-//     );
-// }
+function Animacao (){
+    return(
+        <div className="body-animacao">
+        <div className="flex-animacao">
+        <div className="gradient-animacao"></div>
+            <div className="back-animacao"></div>
+            <img className="img-animacao" src="./logo.png" alt=""/>
+            <div className="shade-animacao"></div>
+            <div className="logo-flex-animacao">
+        </div>
+    </div>
+    </div>
+    );
+}
 
-// export default Animacao;
+export default Animacao;
