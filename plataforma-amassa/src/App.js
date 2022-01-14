@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import "./index.css";
 import ModalEndereço from "./components/Modal/ModalEndereço";
 import ModalCarrinho from "./components/Modal/ModalCarrinho";
+// import Animacao from "./components/Animacao/animação";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
     <>
       <Navbar setIsOpen={setIsModalVisible} setIsOpen2={setIsModalVisible2}/>
       <Banner />
+      {/* <Animacao/> */}
       <Opcoes />
       <Footer />
       {isModalVisible ? <ModalEndereço setIsModalVisible={setIsModalVisible} /> : null}
