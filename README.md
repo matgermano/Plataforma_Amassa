@@ -51,8 +51,7 @@
 ```
 useEffect(()=>{
     axios.get('http://localhost:3000/pratos-principais')
-    .then((response)=>{
-      
+    .then((response)=>{      
       console.log(response);
     }) .catch((error)=>{
       console.log(error);
