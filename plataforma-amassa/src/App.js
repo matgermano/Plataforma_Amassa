@@ -28,11 +28,12 @@ function App() {
   return (
     <>
       <Navbar setIsOpen={setIsModalVisible} setIsOpen2={setIsModalVisible2}/>
+      <Animacao/>
       <Banner />
       
-     
+      
       <Opcoes /> 
-      <Animacao/>
+      
       
       <Footer />
       {isModalVisible ? <ModalEndereço setIsModalVisible={setIsModalVisible} /> : null}

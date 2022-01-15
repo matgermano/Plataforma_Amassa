@@ -56,11 +56,12 @@
   animation-delay: 1s;
       transform: translateY(200px) scale(0);
       opacity: 0;
+      transition: 0.2s;
 }
 .img-animacao:hover{
   width: 385px;
   height: 198px; /* Modify this according to your need */
-  transition: 0.5s;
+  transition: 0.3s;
 }
 @keyframes im{
   0%{

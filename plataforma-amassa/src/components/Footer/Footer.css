@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
     background-color: whitesmoke;
     padding-bottom: 10px;
