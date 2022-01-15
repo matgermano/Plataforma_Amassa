@@ -1,75 +1,18 @@
 .modalCar{
-margin-left:35%;
-width: 415px;
-height: 582px;
-padding:20px;
-background: #FFFFFF;
-border-radius: 20px;
-z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 2px #fff;
+    border-radius: 30px;
+    text-align: center;
 }
+.modalCar i{
+  color: #9F1212;
+}
+
   
-.titulo_carrinho{
-  font-weight: bold;
-  font-size: 35px;
-  text-align: center;
-  color: #2a9051;
-}  
-
-.itens{
-font-weight: normal;
-font-size: 20px;
-color: #000000;
-}
-.preco{
-width: 80px;
-height: 15px;
-font-weight: normal;
-font-size: 20px;
-line-height: 23px;
-color: #1F683B;
-}
-.remover{
-width: 52px;
-height: 15px;
-font-size: 13px;
-line-height: 15px;
-color: #f51212;
-}
-.preco-total{
-  margin-left: 70%;
-  position: absolute;
-width: 90px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 23px;
-color: #1F683B;
-justify-content:space-between;
-}
-.total{
-  display:flex;
-  justify-content:space-between;
-}
-.forma-pagamento{
-position: absolute;
-width: 196px;
-height: 23px;
-font-size: 20px;
-line-height: 23px;
-color: #000000;
-}
-.btn-pagamentos{
-  margin-left: 3px;
-}
-
-.class-enviar{
-  display: flex;
-}
-.btn-enviar{
-width: 132.66px;
-height: 32.52px;
-background: #1F683B;
-border-radius: 7px;
-margin-left: 35%;
-}
