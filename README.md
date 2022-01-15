@@ -47,10 +47,20 @@
 4. Tem suporte a falsificação de solicitações entre sites, conhecido como XRSF.
 
 ## useEffect:
+```
+useEffect(()=>{
+    axios.get('http://localhost:3000/pratos-principais')
+    .then((response)=>{
+      
+      console.log(response);
+    }) .catch((error)=>{
+      console.log(error);
+    })
 
-## Styled-Components:
+  });
+  
+  ```
 
-## React-Router-Dom:
 
 
 
