@@ -1,5 +1,5 @@
 import React from "react";
-import "./Animacao.css"
+import "./animacao.css"
 
 function Animacao (){
     return(

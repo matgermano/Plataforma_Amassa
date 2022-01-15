@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 import "./index.css";
 import ModalEndereço from "./components/Modal/ModalEndereço";
 import ModalCarrinho from "./components/Modal/ModalCarrinho";
-import Animacao from "./components/Animacao/Animação";
+import Animacao from "./components/Animacao/animacao.js";
 
 
 function App() {
@@ -22,8 +22,6 @@ function App() {
   //   }) 
 
   // });
-  
-
 
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [isModalVisible2, setIsModalVisible2] = useState(false);
