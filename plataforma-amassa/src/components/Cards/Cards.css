@@ -1,7 +1,15 @@
+.all{
+  display:inline-flex;
+  justify-content: space-between;
+  padding-left: 25px;
+}
+
 .card {
   width: 300px;
   box-shadow: 2px 2px 7px 2px rgba(78, 78, 78, 0.185);
   border-radius: 8px;
+  padding: auto;
+  left: 500px;
 }
 .card-body {
   padding: 20px;

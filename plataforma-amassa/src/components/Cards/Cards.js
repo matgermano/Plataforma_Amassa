@@ -9,7 +9,6 @@ class Cards extends Component {
       <>
         {this.props.pratosPrincipais.map((prato) => {
           return (
-            <div className="all">
               <div className="all">
                 <div className="card">
                   <div className="card-body">
@@ -48,7 +47,6 @@ class Cards extends Component {
                   </div>
                 </div>
               </div>
-            </div>
           );
         })}
       </>
