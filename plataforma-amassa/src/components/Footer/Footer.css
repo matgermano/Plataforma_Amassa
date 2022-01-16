@@ -1,17 +1,17 @@
 .Footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    position: relative;
-    bottom: 0;
-    background-color: whitesmoke;
-    padding-bottom: 10px;
-    margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background-color: whitesmoke;
+  padding-bottom: 10px;
+  margin-top: 30px;
 }
-.LogoFooter{
-    width: 130px;
+.LogoFooter {
+  width: 130px;
 }
 .Footer i {
-    color: #1F683B;
+  color: #1f683b;
 }

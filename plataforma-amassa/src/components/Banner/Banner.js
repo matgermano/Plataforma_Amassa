@@ -3,9 +3,7 @@ import "./Banner.css";
 
 class Banner extends Component {
   render() {
-    return (
-        <img className="Banner" src="./banner.png" />
-    );
+    return <img className="Banner" src="./banner.png" />;
   }
 }
 

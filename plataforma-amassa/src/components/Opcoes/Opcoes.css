@@ -3,8 +3,8 @@
   justify-content: space-around;
   align-items: center;
 }
-.MenuOpcoes i{
-  color: #9F1212;
+.MenuOpcoes i {
+  color: #9f1212;
   margin-right: 10px;
 }
 .ItensOpcoes ul {
@@ -38,5 +38,4 @@
     padding: 10px;
     margin: 0px;
   }
-  
 }

@@ -11,18 +11,16 @@ import ModalCarrinho from "./components/Modal/ModalCarrinho";
 import Animacao from "./components/Animacao/animacao.js";
 
 function App() {
-
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [isModalVisible2, setIsModalVisible2] = useState(false);
 
   const [pratosPrincipais, setPratosPrincipais] = useState([]);
-  
 
   useEffect(() => {
     axios
       .get("http://localhost:3000/pratos-principais")
       .then((response) => {
-        setPratosPrincipais(response.data); 
+        setPratosPrincipais(response.data);
         console.log(response);
       })
       .catch((error) => {
@@ -52,14 +50,13 @@ function App() {
   //     });
   // }, []);
 
-  
   return (
     <>
       <Navbar setIsOpen={setIsModalVisible} setIsOpen2={setIsModalVisible2} />
       <Animacao />
       <Banner />
       <Opcoes />
-      <Cards pratosPrincipais={pratosPrincipais}/>
+      <Cards pratosPrincipais={pratosPrincipais} />
       <Footer />
       {isModalVisible ? (
         <ModalEndereço setIsModalVisible={setIsModalVisible} />

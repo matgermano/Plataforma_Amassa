@@ -1,8 +1,7 @@
 import React, { Component, useState } from "react";
 import "./Navbar.css";
 
-function Navbar({setIsOpen, setIsOpen2}) {
-
+function Navbar({ setIsOpen, setIsOpen2 }) {
   const [clicked, setClicked] = useState(false);
 
   const handleClick = () => {
@@ -34,7 +33,7 @@ function Navbar({setIsOpen, setIsOpen2}) {
             </a>
           </li>
         </ul>
-      </nav>      
+      </nav>
     </>
   );
 }

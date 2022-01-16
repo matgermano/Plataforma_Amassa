@@ -6,16 +6,16 @@ class Opcoes extends Component {
   render() {
     return (
       <nav className="MenuOpcoes">
-          <h1 clasName="TituloOpcoes"><i class="fas fa-utensils"></i>Nossas Opções:</h1>
+        <h1 clasName="TituloOpcoes">
+          <i class="fas fa-utensils"></i>Nossas Opções:
+        </h1>
 
         <div className="ItensOpcoes">
-          <ul >
+          <ul>
             {ItensOpcoes.map((item) => {
               return (
                 <li>
-                  <a className={item.cName}>
-                     {item.title} 
-                  </a>
+                  <a className={item.cName}>{item.title}</a>
                 </li>
               );
             })}

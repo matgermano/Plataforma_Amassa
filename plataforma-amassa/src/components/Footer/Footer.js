@@ -7,7 +7,9 @@ class Footer extends Component {
       <footer className="Footer">
         <img className="LogoFooter" src="./logo.png" />
         <h1>
-          <a href="https://github.com/matgermano/Plataforma_Amassa"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/matgermano/Plataforma_Amassa">
+            <i class="fab fa-github"></i>
+          </a>
         </h1>
       </footer>
     );

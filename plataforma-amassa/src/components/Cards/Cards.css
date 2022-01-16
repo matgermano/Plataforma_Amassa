@@ -1,24 +1,25 @@
-.card{
-    width: 300px;
-    box-shadow: 2px 2px 7px 2px rgba(78, 78, 78, 0.185);
-    border-radius: 8px;
+.card {
+  width: 300px;
+  box-shadow: 2px 2px 7px 2px rgba(78, 78, 78, 0.185);
+  border-radius: 8px;
 }
-.card-body{
-    padding: 20px;
+.card-body {
+  padding: 20px;
 }
-.card-titulo, .card-descricao{
-    padding: 10px 0px;
+.card-titulo,
+.card-descricao {
+  padding: 10px 0px;
 }
 .card-titulo {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
-.card-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.card-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.card-preco{
-    color: #1F683B;
-    font-weight: bold;
+.card-preco {
+  color: #1f683b;
+  font-weight: bold;
 }

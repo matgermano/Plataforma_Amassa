@@ -1,18 +1,16 @@
-.modalCar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: whitesmoke;
-    margin: 0 auto;
-    margin-top: 5%;
-    width: 400px;
-    padding: 20px;
-    box-shadow: 0 0 2px #fff;
-    border-radius: 30px;
-    text-align: center;
+.modalCar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 0 2px #fff;
+  border-radius: 30px;
+  text-align: center;
 }
-.modalCar i{
-  color: #9F1212;
+.modalCar i {
+  color: #9f1212;
 }
-
-  

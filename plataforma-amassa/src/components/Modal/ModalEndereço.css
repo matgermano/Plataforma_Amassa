@@ -21,7 +21,7 @@
   cursor: pointer;
 }
 
-.modal-titulo{
+.modal-titulo {
   font-size: 20px;
   font-weight: bold;
   padding-bottom: 10px;
@@ -44,53 +44,48 @@
   flex-direction: column;
   align-items: center;
 }
-.input{
+.input {
   margin: 10px 0px;
-  height:30px;
-  background-color: #E5E5E5;
+  height: 30px;
+  background-color: #e5e5e5;
   border: none;
-  border-radius:5px;
-  width:300px;
+  border-radius: 5px;
+  width: 300px;
 }
-.form-flex{
+.form-flex {
   margin: 10px;
   display: flex;
   justify-content: space-around;
 }
-.form-flex input{
+.form-flex input {
   width: 85%;
   margin-left: 10px;
 }
-.btn{
+.btn {
   margin: 10px;
-width: 132.66px;
-height: 36.17px;
-color: #fff;
-background: #1F683B;
-border-radius: 7px;
-cursor: pointer;
+  width: 132.66px;
+  height: 36.17px;
+  color: #fff;
+  background: #1f683b;
+  border-radius: 7px;
+  cursor: pointer;
 }
 .btn-2 {
   margin: 10px;
-width: 132.66px;
-height: 36.17px;
-border-color: #1F683B;
-color: #1F683B;
-border-radius: 7px;
-cursor: pointer;
+  width: 132.66px;
+  height: 36.17px;
+  border-color: #1f683b;
+  color: #1f683b;
+  border-radius: 7px;
+  cursor: pointer;
 }
-.modal-body{
+.modal-body {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.modal-body h4{
-  color: #9F1212;
+.modal-body h4 {
+  color: #9f1212;
   cursor: pointer;
   font-size: 12px;
 }
-
-
-
-
-
