@@ -9,20 +9,22 @@ class Cards extends Component {
     return (
          <>
 
-        {this.props.entradas.map((entrada)=>{
+        {this.props.pratosPrincipais.map((prato)=>{
           return (
+            <div className="all">
+            <div className="all">
             <div className="card">
             <div className="card-body">
-              <div className="card-titulo">{entrada.nome}</div>
+              <div className="card-titulo">{prato.nome}</div>
               <div className="card-descricao">
-                {entrada.ingredientes}
+                {prato.ingredientes}
               </div>
               <div className="card-flex">
-              <div className="card-preco">R$ {entrada.preco},00 </div>
+              <div className="card-preco">{prato.preco}</div>
               <Botao/>
-              <button onClick={()=>{
+              <button className="card-btn" onClick={()=>{
                 axios
-                .delete(`http://localhost:3000/pratos-principais/${entrada.id}`)
+                .delete(`http://localhost:3000/pratos-principais/${prato.id}`)
                 .then((response) => {
                   console.log(response);
                 })
@@ -32,6 +34,8 @@ class Cards extends Component {
               }}>deletar</button>
               </div>
             </div>
+          </div>
+          </div>
           </div>
           )
         })}

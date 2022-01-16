@@ -15,14 +15,14 @@ function App() {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [isModalVisible2, setIsModalVisible2] = useState(false);
 
-  const [entradas, setEntradas] = useState([]);
+  const [pratosPrincipais, setPratosPrincipais] = useState([]);
   
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/entradas")
+      .get("http://localhost:3000/pratos-principais")
       .then((response) => {
-        setEntradas(response.data); 
+        setPratosPrincipais(response.data); 
         console.log(response);
       })
       .catch((error) => {
@@ -59,7 +59,7 @@ function App() {
       <Animacao />
       <Banner />
       <Opcoes />
-      <Cards entradas={entradas}/>
+      <Cards pratosPrincipais={pratosPrincipais}/>
       <Footer />
       {isModalVisible ? (
         <ModalEndereço setIsModalVisible={setIsModalVisible} />
